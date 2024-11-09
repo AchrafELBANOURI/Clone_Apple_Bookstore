@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Navbar , DarkThemeToggle } from "flowbite-react";
+import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-react";
 
 
 export function DefaultHeader() {
@@ -30,6 +31,14 @@ export function DefaultHeader() {
 
 export function DefaultFooter() {
     return (
-        <h1>Footer</h1>
+        <Footer container className="rounded-none">
+      <FooterCopyright href="#" by="Flowbite™" year={2024} />
+      <FooterLinkGroup>
+        <FooterLink href="#">About</FooterLink>
+        <FooterLink href="#">Privacy Policy</FooterLink>
+        <FooterLink href="#">Licensing</FooterLink>
+        <FooterLink href="#">Contact</FooterLink>
+      </FooterLinkGroup>
+    </Footer>
     )
 }
