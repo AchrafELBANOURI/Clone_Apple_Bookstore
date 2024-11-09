@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
           <a
             href="#"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white bg-blue-700 hover:bg-blue-600 rounded-lg dark:bg-transparent dark:border-2 dark:border-gray-500 dark:hover:bg-gray-500 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
           >
             Get started
             <FaArrowRight className="ml-3"/>

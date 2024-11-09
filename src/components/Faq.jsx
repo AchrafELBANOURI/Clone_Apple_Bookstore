@@ -32,7 +32,7 @@ const Faq = () => {
   return (
     <section className="bg-center bg-no-repeat text-gray-900 dark:text-white bg-gray-50 dark:bg-gray-900">
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl mb-16">
+        <h1 className="sm-mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl mb-16">
           {faq_title}
         </h1>
         <Accordion collapseAll className='border-none'>
@@ -41,7 +41,7 @@ const Faq = () => {
                     <AccordionPanel key={index}>
                         <AccordionTitle className='text-gray-900 text-xl'>{question}</AccordionTitle>
                         <AccordionContent>
-                        <p className="px-2 indent-7 mb-2 text-lg text-left text-gray-700 dark:text-gray-400">
+                        <p className="px-2 text-justify indent-7 mb-2 text-lg text-gray-700 dark:text-gray-400">
                             {answer}
                         </p>
                         </AccordionContent>
