@@ -1,5 +1,4 @@
 import flowbite from "flowbite-react/tailwind";
-import { transform } from "next/dist/build/swc/generated-native";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

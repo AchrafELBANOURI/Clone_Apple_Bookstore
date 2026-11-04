@@ -7,9 +7,9 @@ const Slider = ({ images , duration }) => {
     <div className='slider h-72 mt-10 overflow-hidden flex'>
         <div className='flex gap-5 cursor-pointer animate-swipe hover:[animation-play-state:paused]' style={ {animationDuration : `${duration}s` } }>
             {
-                [...images , ...images , ...images ].map(
-                    ({src , title , author}) => (
-                        <div className='flex flex-col items-start flex-shrink-0'>
+                [...images, ...images, ...images].map(
+                    ({src, title, author}, index) => (
+                        <div key={`${src}-${index}`} className='flex flex-col items-start flex-shrink-0'>
                             <Image src={src} alt={title} width={195} height={195}
                                 className='w-52 h-52 object-cover rounded-md'
                             />
