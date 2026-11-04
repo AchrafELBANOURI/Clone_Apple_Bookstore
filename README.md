@@ -1,4 +1,6 @@
-# Apple Bookstore
+# Clone of Apple Bookstore
+
+![Apple Bookstore homepage preview](public/assets/images/readme-preview.png)
 
 A responsive bookstore experience inspired by Apple Books. Browse the home page, discover ebooks and audiobooks, and explore the About, Services, Contact, and Pricing pages. The project uses static content and client-side animations; it does not require a backend or environment variables.
 
