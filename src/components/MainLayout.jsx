@@ -8,7 +8,7 @@ import { Footer, FooterCopyright, FooterLink, FooterLinkGroup } from "flowbite-r
 export function DefaultHeader() {
     return (
         <Navbar>
-        <Navbar.Brand as={Link} href="https://flowbite-react.com">
+        <Navbar.Brand as={Link} href="/">
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Book Store</span>
         </Navbar.Brand>
         <Navbar.Toggle />
@@ -32,11 +32,11 @@ export function DefaultHeader() {
 export function DefaultFooter() {
     return (
         <Footer container className="rounded-none">
-      <FooterCopyright href="#" by="Flowbite™" year={2024} />
+      <FooterCopyright href="/" by="Book Store" year={new Date().getFullYear()} />
       <FooterLinkGroup>
         <FooterLink href="/about">About</FooterLink>
-        <FooterLink href="/PrivacyPolicy">Privacy Policy</FooterLink>
-        <FooterLink href="/Licensing">Licensing</FooterLink>
+        <FooterLink href="/services">Services</FooterLink>
+        <FooterLink href="/pricing">Pricing</FooterLink>
         <FooterLink href="/contact">Contact</FooterLink>
       </FooterLinkGroup>
     </Footer>
