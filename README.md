@@ -1,4 +1,11 @@
-# Clone of Apple Bookstore
+<div align="center">
+
+  # Clone of Apple Bookstore
+
+</div>
+
+<br>
+
 
 ![Apple Bookstore homepage preview](public/assets/images/readme-preview.png)
 
